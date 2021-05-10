@@ -11,11 +11,15 @@ redirect_from:
 versions:
   free-pro-team: '*'
   enterprise-server: '*'
+  github-ae: '*'
+topics:
+  - Repositories
 ---
 
-{% data variables.product.product_name %} verwendet die Open-Source-Bibliothek [Linguist](https://github.com/github/linguist), um Dateisprachen für Syntaxmarkierung und Repository-Statistiken zu bestimmen. Language statistics will update after you push changes to your default branch.
+{% data variables.product.product_name %} uses the open source [Linguist library](https://github.com/github/linguist) to
+determine file languages for syntax highlighting and repository statistics. Language statistics will update after you push changes to your default branch.
 
-Einige Dateien sind schwer zu identifizieren, und manchmal enthalten Projekte mehr Bibliotheks- und Anbieterdateien als eigenen Primärcode. Wenn Du falsche Ergebnisse erhältst, lies bitte den [Leitfaden zur Fehlerbehebung](https://github.com/github/linguist#troubleshooting) für Linguist.
+Einige Dateien sind schwer zu identifizieren, und manchmal enthalten Projekte mehr Bibliotheks- und Anbieterdateien als eigenen Primärcode. Wenn Du falsche Ergebnisse erhältst, lies bitte den [Leitfaden zur Fehlerbehebung](https://github.com/github/linguist/blob/master/docs/troubleshooting.md) für Linguist.
 
 ### Markup-Sprachen
 

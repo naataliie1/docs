@@ -4,9 +4,11 @@ intro: 'Sie können zwischen {% data variables.product.product_location_enterpri
 redirect_from:
   - /enterprise/admin/installation/enabling-automatic-user-license-sync-between-github-enterprise-server-and-github-enterprise-cloud
   - /enterprise/admin/configuration/enabling-automatic-user-license-sync-between-github-enterprise-server-and-github-enterprise-cloud
-permissions: 'Site-Administratoren für {% data variables.product.prodname_ghe_server %} , die auch Inhaber der angeschlossenen Organisation oder des angeschlossenen Unternehmenskontos in der {% data variables.product.prodname_ghe_cloud %} sind, können die automatische Synchronisation von Benutzerlizenzen aktivieren.'
+permissions: 'Site administrators for {% data variables.product.prodname_ghe_server %} who are also owners of the connected {% data variables.product.prodname_ghe_cloud %} organization or enterprise account can enable automatic user license synchronization.'
 versions:
   enterprise-server: '*'
+topics:
+  - Enterprise
 ---
 
 ### Informationen zur Lizenzsynchronisierung
@@ -19,8 +21,7 @@ Darüber hinaus können Sie Informationen zu {% data variables.product.prodname_
 
 Vor der Aktivierung der Lizenzsynchronisierung auf {% data variables.product.product_location_enterprise %} müssen Sie zwischen {% data variables.product.product_location_enterprise %} und {% data variables.product.prodname_dotcom_the_website %} eine Verbindung herstellen. Weitere Informationen finden Sie unter „[{% data variables.product.prodname_ghe_server %} mit {% data variables.product.prodname_ghe_cloud %} verbinden](/enterprise/{{ currentVersion }}/admin/guides/installation/connecting-github-enterprise-server-to-github-enterprise-cloud)“.
 
-{% data reusables.enterprise_site_admin_settings.access-settings %}
-{% data reusables.enterprise_site_admin_settings.business %}
+{% data reusables.enterprise-accounts.access-enterprise %}
 {% data reusables.enterprise-accounts.settings-tab %}
 {% data reusables.enterprise-accounts.github-connect-tab %}
 5. Verwenden Sie unter „Server can sync user license count and usage“ (Server kann Anzahl und Nutzung der Benutzerlizenzen synchronisieren) das Dropdownmenü, und wählen Sie **Enabled** (Aktiviert) aus. ![Dropdownmenü zum Aktivieren der automatischen Synchronisierung von Benutzerlizenzen](/assets/images/enterprise/site-admin-settings/enable-user-license-drop-down.png)

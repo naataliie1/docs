@@ -7,6 +7,9 @@ redirect_from:
 versions:
   free-pro-team: '*'
   enterprise-server: '*'
+  github-ae: '*'
+topics:
+  - Pull requests
 ---
 
 プロジェクトボードをクローズすると、設定されたワークフローの自動化はデフォルトですべて停止します。
@@ -15,7 +18,7 @@ versions:
 
 1. リポジトリまたは Organization の、またはあなたのユーザアカウントが所有する、プロジェクトボードの一覧に移動します。
 2. プロジェクトリストで、クローズしたいプロジェクトボードの隣にある {% octicon "chevron-down" aria-label="The chevron icon" %}をクリックします。 ![プロジェクトボードの名前の右にある、V 字型のアイコン](/assets/images/help/projects/project-list-action-chevron.png)
-3. Click **Close**. ![プロジェクトボードのドロップダウンメニューにある [Close] アイテム](/assets/images/help/projects/close-project.png)
+3. [**Close**] をクリックします。 ![プロジェクトボードのドロップダウンメニューにある [Close] アイテム](/assets/images/help/projects/close-project.png)
 
 ### 参考リンク
 

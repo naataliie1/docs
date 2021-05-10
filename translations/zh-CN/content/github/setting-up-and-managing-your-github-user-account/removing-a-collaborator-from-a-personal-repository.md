@@ -12,6 +12,10 @@ product: '{% data reusables.gated-features.user-repo-collaborators %}'
 versions:
   free-pro-team: '*'
   enterprise-server: '*'
+  github-ae: '*'
+topics:
+  - Accounts
+  - Repositories
 ---
 
 ### 删除私有仓库的复刻
@@ -24,7 +28,7 @@ versions:
 {% data reusables.repositories.sidebar-settings %}
 {% if currentVersion == "free-pro-team@latest" %}
 {% data reusables.repositories.navigate-to-manage-access %}
-4. To the right of the collaborator you want to remove, click
+4. 在要删除的协作者右边，单击
 {% octicon "trashcan" aria-label="The trashcan icon" %}.
   ![用于删除协作者的按钮](/assets/images/help/repository/collaborator-remove.png)
 {% else %}

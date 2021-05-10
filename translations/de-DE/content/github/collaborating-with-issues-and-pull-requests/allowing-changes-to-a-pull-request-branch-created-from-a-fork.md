@@ -3,10 +3,13 @@ title: 'Änderungen an einem Pull-Request-Branch zulassen, der von einem Fork er
 intro: 'Für eine bessere Zusammenarbeit kannst Du Commits für Branches erlauben, die Du aus Forks in Deinem Benutzerkonto erstellt hast.'
 redirect_from:
   - /articles/allowing-changes-to-a-pull-request-branch-created-from-a-fork
-permissions: Personen mit Push-Zugriff auf das vorgelagerte (upstream) Repository einer Fork im Besitz eines Benutzerkontos können zu den geforkten Branches freigeben.
+permissions: People with push access to the upstream repository of a fork owned by a user account can commit to the forked branches.
 versions:
   free-pro-team: '*'
   enterprise-server: '*'
+  github-ae: '*'
+topics:
+  - Pull requests
 ---
 
 Nur die Ersteller von Pull Requests können Betreuern von vorgelagerten Repositorys oder Benutzern mit Push-Zugriff auf das vorgelagerte Repository die Berechtigung erteilen, in einer benutzereigenen Fork Commits an den Vergleichs-Branch ihres Pull Requests vorzunehmen. Weitere Informationen zu vorgelagerten Repositorys findest Du unter „[Informationen zu Forks](/articles/about-forks).“
@@ -17,7 +20,7 @@ Du kannst Commit-Berechtigungen festlegen, wenn Du erstmalig einen Pull Request 
 
 ### Repository-Betreuer-Berechtigungen auf vorhandene Pull Requests aktivieren
 
-1. Navigiere auf {% data variables.product.product_name %} zur Hauptseite des vorgelagerten Repositorys Deines Pull Requests.
+1. Navigieren Sie auf {% data variables.product.product_name %} zur Hauptseite des vorgelagerten Repositorys Ihres Pull Requests.
 2. Klicke unter dem Namen des vorgelagerten Repositorys auf {% octicon "git-pull-request" aria-label="The pull request icon" %} **Pull requests** (Pull Requests). ![Auswahl der Issue- und Pull-Request-Registerkarten](/assets/images/help/repository/repo-tabs-pull-requests.png)
 3. Navigiere in der Liste der Pull Requests zu dem Pull Request, für den Du Commits zulassen möchtest.
 {% data reusables.repositories.allow-maintainers-user-forks %}

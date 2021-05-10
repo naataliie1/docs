@@ -6,6 +6,9 @@ redirect_from:
 versions:
   free-pro-team: '*'
   enterprise-server: '*'
+  github-ae: '*'
+topics:
+  - SSH
 ---
 
 ### Herausfinden, wo der Schlüssel verwendet wurde

@@ -1,7 +1,7 @@
 ---
 title: Criar um problema ou um pull request
 intro: É possível criar um problema ou um pull request para propor e colaborar com alterações em um repositório.
-permissions: 'Qualquer pessoa pode criar um problema em um repositório público que tenha problemas habilitados. Qualquer pessoa com permissões de leitura em um repositório pode criar uma pull request, mas você deve ter permissões de gravação para criar um branch.'
+permissions: 'Anyone can create an issue in a public repository that has issues enabled. Anyone with read permissions to a repository can create a pull request, but you must have write permissions to create a branch.'
 redirect_from:
   - /desktop/contributing-to-projects/creating-an-issue-or-pull-request
   - /desktop/contributing-to-projects/creating-a-pull-request
@@ -50,7 +50,9 @@ Antes de criar um pull request, você deverá fazer push das alterações em um 
 
 1. Alterne para o branch para o qual você deseja criar um pull request. Para obter mais informações, consulte "[Alternar branches](/desktop/contributing-and-collaborating-using-github-desktop/managing-branches#switching-between-branches)".
 2. Clique em **Create Pull Request** (Criar pull request). {% data variables.product.prodname_desktop %} abrirá o seu navegador-padrão para levar você a {% data variables.product.prodname_dotcom %}. ![O botão Criar Pull Request](/assets/images/help/desktop/mac-create-pull-request.png)
-4. Em {% data variables.product.prodname_dotcom %}, confirme se o branch no menu suspenso **base:** é o branch onde você deseja fazer merge das suas alterações. Confirme se o branch no menu suspenso **compare:** é o branch de tópico em que você fez suas alterações. ![Menus suspenso para escolher a base e comparar os branches](/assets/images/help/desktop/base-and-compare-branches.png)
+4. Em
+{% data variables.product.prodname_dotcom %}, confirme que o branch no menu suspenso **base:** é o branch em que você deseja fazer merge das suas alterações. Confirme se o branch no menu suspenso **compare:** é o branch de tópico em que você fez suas alterações.
+  ![Menus suspenso para escolher a base e comparar os branches](/assets/images/help/desktop/base-and-compare-branches.png)
 {% data reusables.repositories.pr-title-description %}
 {% data reusables.repositories.create-pull-request %}
 
@@ -60,7 +62,9 @@ Antes de criar um pull request, você deverá fazer push das alterações em um 
 
 1. Alterne para o branch para o qual você deseja criar um pull request. Para obter mais informações, consulte "[Alternar branches](/desktop/contributing-and-collaborating-using-github-desktop/managing-branches#switching-between-branches)".
 2. Clique em **Create Pull Request** (Criar pull request). {% data variables.product.prodname_desktop %} abrirá o seu navegador-padrão para levar você a {% data variables.product.prodname_dotcom %}. ![O botão Criar Pull Request](/assets/images/help/desktop/windows-create-pull-request.png)
-3. Em {% data variables.product.prodname_dotcom %}, confirme se o branch no menu suspenso **base:** é o branch onde você deseja fazer merge das suas alterações. Confirme se o branch no menu suspenso **compare:** é o branch de tópico em que você fez suas alterações. ![Menus suspenso para escolher a base e comparar os branches](/assets/images/help/desktop/base-and-compare-branches.png)
+3. Em
+{% data variables.product.prodname_dotcom %}, confirme que o branch no menu suspenso **base:** é o branch em que você deseja fazer merge das suas alterações. Confirme se o branch no menu suspenso **compare:** é o branch de tópico em que você fez suas alterações.
+  ![Menus suspenso para escolher a base e comparar os branches](/assets/images/help/desktop/base-and-compare-branches.png)
 {% data reusables.repositories.pr-title-description %}
 {% data reusables.repositories.create-pull-request %}
 

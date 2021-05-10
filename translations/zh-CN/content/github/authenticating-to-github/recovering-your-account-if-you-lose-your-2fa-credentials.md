@@ -8,6 +8,8 @@ redirect_from:
 versions:
   free-pro-team: '*'
   enterprise-server: '*'
+topics:
+  - 2fa
 ---
 
 {% if currentVersion == "free-pro-team@latest" %}
@@ -81,7 +83,8 @@ versions:
 1. 在 Facebook 中，导航到 [Security Settings（安全设置）](https://www.facebook.com/settings?tab=security)，然后单击 **Recover Accounts Elsewhere（异地恢复帐户）**。 ![含有异地恢复帐户链接的 Facebook 安全设置页面](/assets/images/help/settings/security-facebook-security-settings-page.png)
 2. 单击与您的 {% data variables.product.product_name %} 帐户关联的恢复令牌。 ![Facebook 中存储的恢复令牌列表](/assets/images/help/settings/security-github-rae-token-on-facebook.png)
 3. 要取回帐户恢复令牌，请单击 **Recover This Account（恢复此帐户）**。 此时将打开一个新窗口，将您返回到 {% data variables.product.product_name %}。 ![含有恢复令牌相关信息的模态框和恢复此帐户按钮](/assets/images/help/settings/security-recover-account-facebook.png)
-4. 联系 {% data variables.contact.contact_support %}，告知他们您的帐户恢复令牌已准备好进行审查。
+4. 联系我们
+{% data variables.contact.contact_support %}，告知他们您的帐户恢复令牌已准备好进行审查。
 {% endif %}
 
 ### 延伸阅读

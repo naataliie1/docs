@@ -3,10 +3,13 @@ title: Fazer checkout de pull requests no local
 intro: 'Quando alguém envia a você uma pull request de uma bifurcação ou um branch do seu repositório, talvez você queira fazer merge dela no local para resolver um conflito de merge ou para testar e verificar as alterações antes de fazer merge no {% data variables.product.product_name %}.'
 redirect_from:
   - /articles/checking-out-pull-requests-locally
-permissions: Qualquer pessoa com acesso de gravação a um repositório pode derrubar uma pull request remota localmente.
+permissions: Anyone with write access to a repository can pull a remote pull request down locally.
 versions:
   free-pro-team: '*'
   enterprise-server: '*'
+  github-ae: '*'
+topics:
+  - Pull requests
 ---
 
   {% note %}
@@ -18,7 +21,7 @@ versions:
 ### Modificar uma pull request ativa no local
 
 {% data reusables.repositories.sidebar-pr %}
-2. Na lista de pull requests, clique na pull request que você gostaria de modificar.{% if currentVersion == "free-pro-team@latest" %}
+2. Na lista de pull requests, clique no pull request que deseja modificar.{% if currentVersion == "free-pro-team@latest" %}
 3. Para escolher onde você gostaria de abrir a pull request, selecione **Abrir com o menu suspenso {% octicon "triangle-down" aria-label="The down triangle icon" %}** e clique em uma das abas. ![Link to access command line pull request instructions](/assets/images/help/pull_requests/open-with-button.png){% else %}
 3. Na caixa de merge, clique em **instruções para linha de comando**. Siga a sequência de etapas para rebaixar a pull request proposta. ![Link para acessar instruções de pull request da linha de comando](/assets/images/help/pull_requests/pull_request_show_command_line_merge.png)
 4. Como opção, para exibir as alterações propostas no {% data variables.product.prodname_desktop %}, clique em **abrir em {% data variables.product.prodname_desktop %}**. ![Link para abrir uma pull request localmente no Desktop](/assets/images/help/desktop/open-pr-in-desktop.png){% endif %}

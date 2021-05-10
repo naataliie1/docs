@@ -6,6 +6,8 @@ redirect_from:
   - /enterprise/admin/authentication/allowing-built-in-authentication-for-users-outside-your-identity-provider
 versions:
   enterprise-server: '*'
+topics:
+  - Enterprise
 ---
 
 ### 使用しているアイデンティティプロバイダ外のユーザのためのビルトイン認証について
@@ -45,6 +47,6 @@ versions:
 
 ### 参考リンク
 
-- /enterprise/{{ currentVersion }}/admin/guides/user-management/using-ldap
+- /enterprise/{{ page.version }}/admin/guides/user-management/using-ldap
 - [SAMLの利用](/enterprise/{{ currentVersion }}/admin/guides/user-management/using-saml)
 - [CASの利用](/enterprise/{{ currentVersion }}/admin/guides/user-management/using-cas)

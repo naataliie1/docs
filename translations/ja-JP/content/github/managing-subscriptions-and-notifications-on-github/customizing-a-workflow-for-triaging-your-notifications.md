@@ -4,23 +4,26 @@ intro: これらのワークフロー例を調整してカスタマイズし、�
 versions:
   free-pro-team: '*'
   enterprise-server: '>=2.21'
+  github-ae: '*'
+topics:
+  - Notifications
 ---
 
 ### インボックスのトリアージを開始する
 
-Before you start triaging your inbox, consider whether you prefer to first find and respond to the most important updates or to clear your inbox of distracting updates that are easy to remove or triage.
+インボックスのトリアージを開始する前に、最重要の更新を最初に見つけて対応するか、削除またはトリアージが簡単な煩わしい更新をインボックスからクリアするかを検討してください。
 
-You may decide to use a combination of both approaches at various times depending on the volume of notifications you have.
+通知の量に応じて、さまざまな時点で両方のアプローチを組み合わせて使用することを決定できます。
 
-For an example workflow of finding and responding to the most important notifications, see "[Checking your highest notification priorities](#checking-your-highest-notification-priorities)."
+最も重要な通知を見つけて対応するワークフローの例については、「[最優先の通知を確認する](#checking-your-highest-notification-priorities)」を参照してください。
 
-For an example workflow of removing notifications that are easy to remove or triage, see "[Clearing your least important notifications](#clearing-your-least-important-notifications)."
+削除またはトリアージが簡単な通知を削除するワークフローの例については、「[最も重要度の低い通知を消去する](#clearing-your-least-important-notifications)」を参照してください。
 
 ### 最も優先度の高い通知を確認する
 
-Choose which type of notifications are most urgent to review and pick a time to review them that's best for you. You might consider the question "Who am I blocking?"
+一番最初に確認する通知の種類を選択し、通知の確認時間を選択します。 「誰をブロックするか」ということを検討します。
 
-For example, you may decide to check your notifications in this order in the morning during your daily planning time:
+たとえば、毎日の計画を行う午前中に、次の順序で通知を確認できます。
   - レビューがリクエストされているプルリクエスト。 (`reason:review-requested` でフィルタ)
   - ユーザ名が@メンション（直接メンション）されているイベント。 (`reason:mention` でフィルタ)
   - メンバーになっている Team が@メンション（Team メンション）されているイベント。 (`reason:team-mention` でフィルタ)
@@ -34,15 +37,15 @@ For example, you may decide to check your notifications in this order in the mor
 
 ### 進行中の通知の更新をフォローアップする
 
-To follow-up on notifications, you might consider the question "What was I blocked on that I'm no longer blocked on?" Choose your follow-up notification priorities.
+通知をフォローアップするには、「今はブロックされていないが、ブロックされていたもの」ということを検討します。 フォローアップ通知の優先順位を選択します。
 
-For example, you may decide to follow up in this order:
+たとえば、次の順序でフォローアップすることを決定できます。
   - 割り当てられた Issue およびプルリクエスト。 可能な Issue またはプルリクエストをすぐにクローズして、更新を追加します。 必要に応じて、後で確認するために通知を保存します。
   - 保存済インボックスの通知、特に未読の更新を確認します。 スレッドが不要になった場合は、{% octicon "bookmark" aria-label="The bookmark icon" %} をオフにして、通知を保存済インボックスから削除し、保存を解除します。
 
 ### 優先度の低い通知を管理する
 
-After triaging the higher priority notifications, review the remaining notifications, such as participating notifications. Consider these questions:
+優先度の高い通知をトリアージした後、参加通知などの残りの通知を確認します。 次の質問を検討してください。
   - この通知をサブスクライブ解除できますか？ この通知は完了していて、**Done**としてマークしても大丈夫ですか？
   {% tip %}
 
@@ -54,12 +57,12 @@ After triaging the higher priority notifications, review the remaining notificat
 
 ### 最も重要度の低い通知を消去する
 
-Choose which type of notifications are quickest and easiest for you to triage and remove from your inbox, ideally triaging multiple notifications at once.
+トリアージしてインボックスから削除する際に最も速くて簡単な通知の種類を選択します。理想的としては、一度に複数の通知をトリアージします。
 
 たとえば、次の順序で通知をクリアすることができます。
   - サブスクライブ解除できる参加通知。
   - 保持またはフォローアップに関連しないリポジトリの更新。
 
-For more information on managing multiple notifications in your inbox at the same time, see "[Managing notifications from your inbox](/github/managing-subscriptions-and-notifications-on-github/managing-notifications-from-your-inbox#triaging-multiple-notifications-at-the-same-time)."
+インボックス内の複数の通知を同時に管理する方法の詳細については、「[インボックスからの通知を管理する](/github/managing-subscriptions-and-notifications-on-github/managing-notifications-from-your-inbox#triaging-multiple-notifications-at-the-same-time)」を参照してください。
 
-You may also consider changing your notification settings or unsubscribing from these updates if possible. For more information, see "[Configuring notifications](/github/managing-subscriptions-and-notifications-on-github/configuring-notifications)" or "[Managing subscriptions for activity on GitHub](/github/managing-subscriptions-and-notifications-on-github/managing-subscriptions-for-activity-on-github)."
+可能な場合、通知設定を変更するか、これらの更新のサブスクライブ解除することを検討することもできます。 詳しい情報については、「[通知を設定する](/github/managing-subscriptions-and-notifications-on-github/configuring-notifications)」または「[GitHub におけるアクティビティのサブスクリプションを管理する](/github/managing-subscriptions-and-notifications-on-github/managing-subscriptions-for-activity-on-github)」を参照してください。

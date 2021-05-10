@@ -4,15 +4,18 @@ intro: 查看和调查单个通知时，有几个针对详细通知视图优化�
 versions:
   free-pro-team: '*'
   enterprise-server: '>=2.21'
+  github-ae: '*'
+topics:
+  - Notifications
 ---
 
 ### 保存单个通知
 
-要保存单一通知供以后查看，在通知右侧单击 {% octicon "bookmark" aria-label="The bookmark icon" %}。 You can only save one notification at a time.
+要保存单一通知供以后查看，在通知右侧单击 {% octicon "bookmark" aria-label="The bookmark icon" %}。 一次只能保存一个通知。
 
-Saved notifications are kept indefinitely and can be viewed by clicking **Saved** in the sidebar or with the `is:saved` query. 如果您保存的通知超过5个月并且变成未保存，通知将在一天内从收件箱消失。
+已保存的通知将无限期保存，可单击侧边栏中的 **Saved（已保存）** 或通过 `is:saved` 查询进行查看。 如果您保存的通知超过5个月并且变成未保存，通知将在一天内从收件箱消失。
 
-  ![Save triaging option](/assets/images/help/notifications-v2/save-triaging-option.png)
+  ![保存分类选项](/assets/images/help/notifications-v2/save-triaging-option.png)
 
 ### 调查通知
 
@@ -23,7 +26,7 @@ Saved notifications are kept indefinitely and can be viewed by clicking **Saved*
 - 保存通知以供以后查看
 - 返回通知收件箱
 
-For more information about your triage options, see "[Managing notifications from your inbox](/github/managing-subscriptions-and-notifications-on-github/managing-notifications-from-your-inbox#triaging-options)."
+有关分类选项的更多信息，请参阅“[管理收件箱中的通知](/github/managing-subscriptions-and-notifications-on-github/managing-notifications-from-your-inbox#triaging-options)”。
 
 ### 自定义何时接收议题或拉取请求的未来更新
 
@@ -31,10 +34,10 @@ For more information about your triage options, see "[Managing notifications fro
 
 1. 在议题或拉取请求的右侧列的“Notifications（通知）”旁边单击 **Customize（自定义）**。
 
-  ![Customize option under "Notifications"](/assets/images/help/notifications-v2/customize-notifications-for-specific-thread.png)
+  !["Notifications（通知）"下的自定义选项](/assets/images/help/notifications-v2/customize-notifications-for-specific-thread.png)
 
-2. Select **Custom** and choose when you'd like to receive a notification update for this thread. For example, you can choose to receive an update when the pull request has been merged, closed, or reopened. You will be subscribed again if you participate in the thread, your username is @mentioned, or a team you're a member of is @mentioned.
+2. 选择 **Custom（自定义）**，然后选择您希望在什么情况下接收有关此帖子的更新通知。 例如，您可以选择在拉取请求被合并、关闭或重新打开时接收更新。 如果您参与帖子、您的用户名被 @提及或您所属的团队被 @提及，您将会重新订阅。
 
-  ![Options for customizing notifications](/assets/images/help/notifications-v2/custom-options-for-customizing-notification-thread-updates.png)
+  ![自定义通知的选项](/assets/images/help/notifications-v2/custom-options-for-customizing-notification-thread-updates.png)
 
 3. 单击 **Save（保存）**。

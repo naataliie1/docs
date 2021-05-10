@@ -2,15 +2,22 @@
 title: Documentación de GitHub Actions
 shortTitle: GitHub Actions
 intro: 'Automatiza, personaliza y ejecuta tus flujos de trabajo de desarrollo de software directamente en tu repositorio con {% data variables.product.prodname_actions %}. Puedes descubrir, crear y compartir acciones para realizar cualquier trabajo que quieras, incluido CI/CD, y combinar acciones en un flujo de trabajo completamente personalizado.'
-gettingStartedLinks:
-  - /actions/quickstart
-  - /actions/learn-github-actions
-guideLinks:
-  - /actions/managing-workflow-runs
-  - /actions/hosting-your-own-runners
-popularLinks:
-  - /actions/reference/workflow-syntax-for-github-actions
-  - /actions/reference/events-that-trigger-workflows
+featuredLinks:
+  guides:
+    - /actions/learn-github-actions
+    - /actions/guides/about-continuous-integration
+    - /actions/guides/about-packaging-with-github-actions
+  guideCards:
+    - /actions/guides/setting-up-continuous-integration-using-workflow-templates
+    - /actions/guides/publishing-nodejs-packages
+    - /actions/guides/building-and-testing-powershell
+  popular:
+    - /actions/reference/workflow-syntax-for-github-actions
+    - /actions/learn-github-actions
+    - /actions/reference/events-that-trigger-workflows
+    - /actions/reference/context-and-expression-syntax-for-github-actions
+    - /actions/reference/environment-variables
+    - /actions/reference/encrypted-secrets
 redirect_from:
   - /articles/automating-your-workflow-with-github-actions/
   - /articles/customizing-your-project-with-github-actions/
@@ -22,6 +29,14 @@ layout: product-landing
 versions:
   free-pro-team: '*'
   enterprise-server: '>=2.22'
+  github-ae: '*'
+introLinks:
+  quickstart: /actions/quickstart
+  reference: /actions/reference
+changelog:
+  label: actions
+  prefix: 'GitHub Actions: '
+product_video: 'https://www.youtube-nocookie.com/embed/cP0I9w2coGU'
 ---
 
 <!-- {% link_with_intro /quickstart %} -->
@@ -39,7 +54,7 @@ versions:
       <h3 class="f5 text-normal text-mono underline-dashed color-gray-5">{% data ui.toc.getting_started %}</h3>
     </div>
     <ul class="list-style-none">
-      {% for link in gettingStartedLinks %}
+      {% for link in featuredLinks.gettingStarted %}
         <li>{% include featured-link %}</li>
       {% endfor %}
     </ul>
@@ -50,7 +65,7 @@ versions:
       <h3 class="f5 text-normal text-mono underline-dashed color-gray-5">{% data ui.toc.popular_articles %}</h3>
     </div>
     <ul class="list-style-none">
-      {% for link in popularLinks %}
+      {% for link in featuredLinks.popular %}
         <li>{% include featured-link %}</li>
       {% endfor %}
     </ul>
@@ -61,7 +76,7 @@ versions:
       <h3 class="f5 text-normal text-mono underline-dashed color-gray-5">Administrar flujos de trabajo</h3>
     </div>
     <ul class="list-style-none">
-      {% for link in guideLinks %}
+      {% for link in featuredLinks.guide %}
         <li>{% include featured-link %}</li>
       {% endfor %}
     </ul>

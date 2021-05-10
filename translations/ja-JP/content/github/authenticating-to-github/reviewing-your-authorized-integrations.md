@@ -6,6 +6,10 @@ redirect_from:
 versions:
   free-pro-team: '*'
   enterprise-server: '*'
+  github-ae: '*'
+topics:
+  - Identity
+  - Access management
 ---
 
 ### 許可された {% data variables.product.prodname_oauth_app %} をレビューする

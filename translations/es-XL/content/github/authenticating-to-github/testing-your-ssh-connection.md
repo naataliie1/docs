@@ -6,6 +6,9 @@ redirect_from:
 versions:
   free-pro-team: '*'
   enterprise-server: '*'
+  github-ae: '*'
+topics:
+  - SSH
 ---
 
 Antes de probar tu conexión SSH, debes haber hecho lo siguiente:
@@ -23,14 +26,6 @@ Cuando pruebes tu conexión, tendrás que autenticar esta acción utilizando tu 
   ```
 
   Puedes ver una advertencia como la siguiente:
-
-  ```shell
-  > La autenticidad del host '{% data variables.command_line.codeblock %} (DIRECCIÓN IP)' no se puede establecer.
-  > La clave de huella digital RSA es 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
-  > ¿Estás seguro de que quieres continuar conectado (sí/no)?
-  ```
-
-  o como la siguiente:
 
   ```shell
   > La autenticidad del host '{% data variables.command_line.codeblock %} (DIRECCIÓN IP)' no se puede establecer.

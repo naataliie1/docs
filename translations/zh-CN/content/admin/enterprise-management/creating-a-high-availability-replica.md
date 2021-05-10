@@ -6,7 +6,11 @@ redirect_from:
   - /enterprise/admin/enterprise-management/creating-a-high-availability-replica
 versions:
   enterprise-server: '*'
+topics:
+  - Enterprise
 ---
+
+{% data reusables.enterprise_installation.replica-limit %}
 
 ### 创建高可用性副本
 
@@ -49,7 +53,7 @@ versions:
   (replica2)$ ghe-repl-setup --add <em>PRIMARY IP</em>
   (replica2)$ ghe-repl-start
   ```
-3. 默认情况下，副本被配置到同一个数据中心{% if currentVersion ver_gt "enterprise-server@2.17" %}，现在将尝试从同一个数据中心中的现有节点播种{% endif %}。 为数据中心选项设置不同的值，通过这种方式为不同的数据中心配置副本。 可以随意设定特定值，只要数值彼此不同即可。 在每个节点上运行 `ghe-repl-node` 命令并指定数据中心。
+3. 默认情况下，副本被配置到同一个数据中心，现在将尝试从同一个数据中心中的现有节点播种。 为数据中心选项设置不同的值，通过这种方式为不同的数据中心配置副本。 可以随意设定特定值，只要数值彼此不同即可。 在每个节点上运行 `ghe-repl-node` 命令并指定数据中心。
 
   在主设备上：
   ```shell

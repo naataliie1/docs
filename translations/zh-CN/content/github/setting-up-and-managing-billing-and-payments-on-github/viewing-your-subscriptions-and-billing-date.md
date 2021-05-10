@@ -9,6 +9,8 @@ redirect_from:
   - /articles/viewing-your-subscriptions-and-billing-date
 versions:
   free-pro-team: '*'
+topics:
+  - Billing
 ---
 
 ### 查找个人帐户的下一个结算日期

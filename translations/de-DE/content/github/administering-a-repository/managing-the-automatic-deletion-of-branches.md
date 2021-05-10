@@ -5,7 +5,10 @@ redirect_from:
   - /articles/managing-the-automatic-deletion-of-branches
 versions:
   free-pro-team: '*'
-  enterprise-server: '>=2.19'
+  enterprise-server: '*'
+  github-ae: '*'
+topics:
+  - Repositories
 ---
 
 Personen mit Administratorberechtigungen für ein Repository können die automatische Löschung von Branches aktivieren oder deaktivieren.

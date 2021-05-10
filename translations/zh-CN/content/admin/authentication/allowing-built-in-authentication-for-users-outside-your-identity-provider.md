@@ -6,6 +6,8 @@ redirect_from:
   - /enterprise/admin/authentication/allowing-built-in-authentication-for-users-outside-your-identity-provider
 versions:
   enterprise-server: '*'
+topics:
+  - Enterprise
 ---
 
 ### 关于对您的身份提供程序覆盖范围外的用户进行内置身份验证
@@ -45,6 +47,6 @@ versions:
 
 ### 延伸阅读
 
-- "[使用 LDAP](/enterprise/{{ currentVersion }}/admin/guides/user-management/using-ldap)"
+- "[使用 LDAP](/enterprise/{{ page.version }}/admin/guides/user-management/using-ldap)"
 - "[使用 SAML](/enterprise/{{ currentVersion }}/admin/guides/user-management/using-saml)"
 - "[使用 CAS](/enterprise/{{ currentVersion }}/admin/guides/user-management/using-cas)"

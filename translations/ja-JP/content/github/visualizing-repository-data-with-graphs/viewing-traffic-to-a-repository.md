@@ -6,6 +6,8 @@ redirect_from:
   - /articles/viewing-traffic-to-a-repository
 versions:
   free-pro-team: '*'
+topics:
+  - Repositories
 ---
 
 特定のパスが参照されていたリンクから、検索エンジンと {% data variables.product.product_name %} 自体を除く、参照元サイトに移動できます。 人気のあるコンテンツは、トラフィックを発生させた特定のコンテンツにリンクしています。
@@ -24,4 +26,4 @@ versions:
 
 {% data reusables.repositories.navigate-to-repo %}
 {% data reusables.repositories.accessing-repository-graphs %}
-3. In the left sidebar, click **Traffic**. ![[Traffic] タブ](/assets/images/help/graphs/traffic_tab.png)
+3. 左側のサイドバーで、[**Traffic**] をクリックします。 ![[Traffic] タブ](/assets/images/help/graphs/traffic_tab.png)

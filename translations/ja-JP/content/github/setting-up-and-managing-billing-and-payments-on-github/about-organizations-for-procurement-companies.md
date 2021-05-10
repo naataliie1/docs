@@ -6,6 +6,8 @@ redirect_from:
   - /articles/about-organizations-for-procurement-companies
 versions:
   free-pro-team: '*'
+topics:
+  - Billing
 ---
 
 Organizationにアクセスするためには、各メンバーは自身のパーソナルユーザアカウントにサインインしなければなりません

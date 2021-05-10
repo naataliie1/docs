@@ -7,13 +7,16 @@ redirect_from:
 versions:
   free-pro-team: '*'
   enterprise-server: '*'
+  github-ae: '*'
+topics:
+  - Pull requests
 ---
 
-プルリクエスト内のファイルは、`.html` や `.js` などの拡張子、拡張子なし、{% if currentVersion == "free-pro-team@latest" or currentVersion ver_gt "enterprise-server@2.17" %}コード所有権、{% endif %}またはドットファイルかどうかなどでフィルタリングできます。
+プルリクエスト内のファイルは、`.html` や `.js` などのファイル拡張子の種類、拡張子の欠如、コードの所有権、ドットファイルでフィルタリングできます。
 
 {% tip %}
 
-**ヒント:** ファイルのフィルタドロップダウンメニューから、プルリクエストの diff 内の削除されたファイル{% if currentVersion == "free-pro-team@latest" or currentVersion ver_gt "enterprise-server@2.17" %}か、既に表示したファイル{% endif %}を一時的に非表示にして、プルリクエストの diff 表示を簡素化できます。
+**ヒント:** ファイルのフィルタドロップダウンメニューから、プルリクエストの diff 内の削除されたファイル、または既に表示したファイルを一時的に非表示にして、プルリクエストの diff 表示を簡素化できます。
 
 {% endtip %}
 

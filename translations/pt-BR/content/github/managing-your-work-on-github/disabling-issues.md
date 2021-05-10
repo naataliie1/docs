@@ -6,6 +6,9 @@ redirect_from:
 versions:
   free-pro-team: '*'
   enterprise-server: '*'
+  github-ae: '*'
+topics:
+  - Pull requests
 ---
 
 {% data reusables.repositories.navigate-to-repo %}
@@ -17,8 +20,9 @@ Se você decidir habilitar problemas novamente no futuro, qualquer problema que 
 {% if currentVersion == "free-pro-team@latest" %}
 
 {% tip %}
+Entre em contato com
 
-Entre em contato com {% data variables.contact.contact_support %} caso queira desativar problemas por causa de abuso de estranhos.
+{% data variables.contact.contact_support %} se quiser desativar os problemas em razão de abuso de estranhos.
 {% data reusables.policies.abuse %}
 
 {% endtip %}

@@ -6,6 +6,8 @@ redirect_from:
 versions:
   free-pro-team: '*'
   enterprise-server: '*'
+topics:
+  - 2fa
 ---
 
 强烈建议使用双重身份验证保护您的帐户。 如果您需要禁用 2FA，我们建议尽快将其重新启用。
@@ -24,7 +26,7 @@ versions:
 
 {% data reusables.user_settings.access_settings %}
 {% data reusables.user_settings.security %}
-3. Click **Disable**. ![禁用双重身份验证](/assets/images/help/2fa/disable-two-factor-authentication.png)
+3. 单击 **Disable（禁用）**。 ![禁用双重身份验证](/assets/images/help/2fa/disable-two-factor-authentication.png)
 
 ### 延伸阅读
 

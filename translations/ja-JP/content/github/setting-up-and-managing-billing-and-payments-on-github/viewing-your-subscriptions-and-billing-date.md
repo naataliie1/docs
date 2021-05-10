@@ -9,6 +9,8 @@ redirect_from:
   - /articles/viewing-your-subscriptions-and-billing-date
 versions:
   free-pro-team: '*'
+topics:
+  - Billing
 ---
 
 ### 個人アカウントの次の請求日を確認する

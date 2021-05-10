@@ -47,7 +47,7 @@ Subversion-Checkouts unterscheiden sich hier: In Subversion sind die Repository-
 
 Zur Erstellung der Branches kannst Du auch die Subversion-Bridge für GitHub verwenden.
 
-Stelle auf Deinem SVN-Client sicher, dass „master“ der aktuelle Branch ist. Aktualisiere hierzu `trunk`:
+From your svn client, make sure the default branch is current by updating `trunk`:
 ```shell
 $ svn up trunk
 > At revision 1.

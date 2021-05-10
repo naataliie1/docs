@@ -5,6 +5,8 @@ redirect_from:
   - /articles/how-does-upgrading-or-downgrading-affect-the-billing-process
 versions:
   free-pro-team: '*'
+topics:
+  - Billing
 ---
 
 有料ユーザアカウントまたは Organization のプランを変更しても、{% data variables.large_files.product_name_long %} など他の有料 {% data variables.product.prodname_dotcom %} 機能や、{% data variables.product.prodname_marketplace %} で購入した有料アプリケーションには影響しません。
@@ -30,6 +32,6 @@ versions:
 ### 参考リンク
 
 - 「[{% data variables.product.prodname_dotcom %} アカウントの支払いを管理する](/articles/managing-billing-for-your-github-account)」
-- 「[{% data variables.product.prodname_marketplace %} アプリケーションの支払いを管理する](/articles/managing-billing-for-github-marketplace-apps)」
+- [{% data variables.product.prodname_marketplace %} アプリの支払いを管理する](/articles/managing-billing-for-github-marketplace-apps)
 - 「[{% data variables.large_files.product_name_long %} の支払いを管理する](/articles/managing-billing-for-git-large-file-storage)」
 - [ユーザごとの価格付けについて](/articles/about-per-user-pricing)
