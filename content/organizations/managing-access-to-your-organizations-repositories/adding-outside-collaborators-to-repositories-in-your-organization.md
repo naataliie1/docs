@@ -45,3 +45,4 @@ If your organization [requires members and outside collaborators to use two-fact
 
 - "[Converting an organization member to an outside collaborator](/articles/converting-an-organization-member-to-an-outside-collaborator)"
 - "[Removing an outside collaborator from an organization repository](/articles/removing-an-outside-collaborator-from-an-organization-repository)"
+-credentials-in-git.md to content/github/getting-started-with github-credentials-in-git.md
